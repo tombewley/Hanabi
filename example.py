@@ -5,17 +5,18 @@ hanabi = Hanabi.Game(["Alice","Bob","Coco","Dora","Eli"])
 
 # Everything that happens inside this loop will occur on each turn. 
 # Just running it once for now though.
-for turn in range(100):
+for turn in range(1):
 
 	# Print a summary of the game in its current state.
 	print(hanabi,'\n')
 
 	# Get the name of the player whose turn it is.
-	print(hanabi.whos_turn+"'s turn.")
+	p = hanabi.whos_turn
+	print(p+"'s turn.")
 
-	# Show what they're allowed to observe of the game state.
-	print("Game state observation:\n",hanabi.observe(hanabi.whos_turn))
-	valid_info = hanabi.validInfo(hanabi.whos_turn)
+	# Show what p is allowed to observe of the game state.
+	print("Game state observation:\n",hanabi.observe(p))
+	valid_info = hanabi.validInfo(p)
 	print("Valid info options:\n",valid_info)
 
 	# Choose an action, specified by an action type and args.
@@ -34,7 +35,7 @@ for turn in range(100):
 
 	# Execute the desired action.
 	print("Chosen action:\n",action_type,"-->",args)
-	outcome = hanabi.act(hanabi.whos_turn, action_type, args)
+	outcome = hanabi.act(p, action_type, args)
 	print("\n==========================\n")
 
 	# If the game has come to an end, display the final score.
