@@ -20,7 +20,7 @@ for turn in range(100):
 
 	# Choose an action, specified by an action type and args.
 
-	action_type = "play" 	# Action type: play card.
+	action_type = "play"	# Action type: play card.
 	args = 0				# Args: integer specifying which card in the hand to play.
 		
 	'''
