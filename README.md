@@ -1,6 +1,6 @@
 # Minimal Hanabi Emulator
 
-![Especial De Natal: Jogos De Mesa Para Alegrar Sua Noite ...](https://images-na.ssl-images-amazon.com/images/I/51tQM1c%2BTHL.jpg)
+![Hanabi](https://images-na.ssl-images-amazon.com/images/I/51tQM1c%2BTHL.jpg)
 
 [Hanabi](https://en.wikipedia.org/wiki/Hanabi_%28card_game%29) is a cooperative card game created by Antoine Bauza. Playing the game successfully demands players effectively cultivate a *theory of mind* for each of their team mates. For this reason, Hanabi was recently identified as a challenging ["new frontier for AI research"](https://deepmind.com/research/publications/hanabi-challenge-new-frontier-ai-research).
 
