@@ -38,4 +38,4 @@ for turn in range(100):
 	print("\n==========================\n")
 
 	# If the game has come to an end, display the final score.
-	if outcome == -1: print('Final score =',hanabi.score); break
+	if outcome == -1: print("Final score =",hanabi.score); break
